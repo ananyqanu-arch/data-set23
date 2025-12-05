@@ -7,7 +7,7 @@ import altair as alt
 
 # Set the title of the Streamlit application
 st.title('Swiggy Data Analysis Dashboard')
-df=pd.read_csv('/content/swiggy (1).csv')
+df=pd.read_csv('swiggy (1).csv')
 # Add a sidebar for interactive filters
 st.sidebar.title('Filter Options')
 
